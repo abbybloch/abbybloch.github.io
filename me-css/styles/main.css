@@ -1,0 +1,105 @@
+/* Style sheet for about me website */
+
+body{
+    background-color:   #CBCBCB ; /* #cbe6ef */
+}
+
+#title{
+    color: #016507 ;
+    text-decoration: none;
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-size: 1.9em;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #FDDA0D;
+}
+
+
+h2{
+    color: #016507 ;
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-size: 1.6em;
+    text-decoration: underline;
+    padding-top: 10px;
+}
+
+h3{
+    color: #016507 ;
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-size: 1.4em; 
+    padding-top: 10px;
+}
+
+p, ul{
+    color: black;
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-size: 1em;
+}
+
+header, nav {
+    text-align: center;
+}
+
+a.navi:link, a.navi:active, a.navi:visited {
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-size: 1.3em;
+    color: purple;
+    text-decoration: none;
+    background: #878787;
+    padding: 3px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-right: 2%;
+}
+
+a.navi:hover {
+    background: #FDDA0D;
+}
+
+a:link, a:active, a:visited{
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-size: 1em;
+    color: purple;
+    text-decoration: none;
+}
+
+a:hover{
+    background: #FDDA0D;
+}
+
+a#title:hover{
+    background: none;
+}
+
+
+footer {
+    font-size: .85em;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    clear: both;
+}
+
+
+img{
+    
+    width: 25%;
+    height: auto;
+
+}
+
+.books{
+    float: left;
+    padding: 15px;
+}
+
+#sketch{
+    float: left;
+    margin-right: 15px;
+}
+

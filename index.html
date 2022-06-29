@@ -1,78 +1,109 @@
 <!DOCTYPE html>
-
-<html lang= "en">
+<html>
 	<head>
-		<meta charset= "utf-8">
-		<title>Home</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		 <link rel="stylesheet" href="styles/main.css">
+		<meta charset="utf-8">
+		<title>Abby Bloch</title>
+
+		<style>
+			h1{
+				font-family: helvetica;
+				font-weight: lighter;
+				font-size: 1.4em;
+			}
+
+			p {
+				font-family: helvetica;
+				font-weight: lighter;
+				font-size: 1em;
+			}
+
+			li {
+				font-family: helvetica;
+				font-weight: lighter;
+				font-size: 1em;
+			}
+
+			a:link{
+				color: blue;
+			}
+
+			a:hover{
+				background: yellow;
+			}
+			a:visited{
+				color: purple;
+			}
+
+			.cls-2 { fill: purple; }
+			.cls-3 { fill: green; }
+			.cls-4 { fill: yellow; }
+			.cls-2, .cls-3, .cls-4 { opacity: 0.7; }
+
+			.cls-2:hover{
+				fill: purple;
+				opacity: 1;
+			}
+			.cls-3:hover{
+				fill: green;
+				opacity: 1;
+			}
+			.cls-4:hover{
+				fill: yellow;
+				opacity: 1;
+			}
+
+			.cls-1{
+				fill: #00ccff;
+				opacity: 0.5;
+			}
+
+			text{
+				font-family: Trattatello;
+				font-size: 2em;
+			}
+
+		</style>
 	</head>
 
-<body>
-	<h1 id="head" >HARRY POTTER AND THE SORCERER'S STONE MAGIC LEITMOTIF</h1>
-  
+
+	<body>
+		<h1 style="color: green;">Introduction to Web Design</h1>
+		<p>Hello, my name is Abby and I am a sophomore in music technology. I play guitar and sing and enjoy reading and drinking coffee. After graduation I would like to work in post-production audio for TV/film/advertising. In this class, I am excited to learn more about web design and make websites!</p>
+		<ul style="background: lightgray;">
+			<li><a href="me/index.html">HTML</a></li>
+			<li><a href="me-css/index.html">CSS</a></li>
+			<li><a href="image/index.html">Raster Graphics</a></li>
+			<li><a href="index.html">Vector Graphics</a></li>
+			<li><a href="page-layout/index.html">Page Layout</a></li>
+			<li><a href="media-page-layout/index.html">Responsive Design</a></li>
+			<li><a href="JavaScript/index.html">JavaScript</a></li>
+			<li><a href="final-project/index.html">Final Project</a></li>
+		</ul>
 
 
-	<div id="container">
-    <div id="navigate">
-		<nav>
-        <ul class="nav-list">
-          <li class="nav-item"><a href="music.html">Introduction To Music In Movies</a></li>
-          <li class="nav-item"><a href="motif-sig.html">The Magic Leitmotif found in Harry Potter and the Sorcerer's Stone</a></li>
-          <li class="nav-item"><a href="magic-motif.html">How the Magic Leitmotif Works</a></li>
-        </ul>
-     </nav>
-   </div>
-  </div>
-
-  <div id="images">
-
-      <div class="o">
-      <a href="music.html">
-      	<img 
-        id="orchestra" 
-        width= "1200" height = "909"
-        src="images/orchestra.jpg" 
-        srcset = "images/orchestra.jpg 1200w, images/orchestra-x2.png 2400w"
-        sizes="(max-width: 1200px) 1200px, (min-width: 1201px) 2400px"
-        alt="A black and white picture of an orchestra during the dilent film era" 
-        >
-      </a>
-    </div>
-
-    <div class="t">
-      <a href="motif-sig.html">
-      	<img 
-        id="trio" 
-        width= "900" height = "586"
-        src="images/trio.jpg" 
-        srcset = "images/trio.jpg 900w, images/trio-x2.jpeg 1800w"
-        sizes="(max-width: 900px) 900px, (min-width: 901px) 1800px"
-        alt="Picture of Harry, Hermione, and Ron looking out of the train" 
-        >
-      </a>
-     </div>
-
-     <div class="s">
-      <a href="magic-motif.html">
-      	<img 
-        id="score" 
-        width= "2480" height = "3508"
-        src="images/hedwigs-theme.png" 
-        srcset = "images/hedwigs-theme.jpg 2480w, images/hedwigs-theme-x2.png 4960w"
-        sizes="(max-width: 2480px) 2480px, (min-width: 2481px) 4960px"
-        alt="The first page of piano sheet music for Hedwig's Theme" 
-        >
-      </a>
-     </div>
-  </div>
-
-		<footer>
-			<p><a href="index.html">Back to Navigation Page</a></p>
-			<p><a id="home" href="https://i6.cims.nyu.edu/~apb465/">Back to apb465 Web Design Directory Page</a></p>
-      <p id= "day" > Today</p>
-		</footer>
-    
-    <script src="interact.js"></script>
+		<svg width="1000" height="1000">
+			<title>A vector graphic image with a small yellow star in the center of a larger green 10-point star behind it. Then behind that there is a purple star with curved edges. All of this is within a light blue circle.</title>
+			
+			<g id="circle">
+   		 		<circle class="cls-1" cx="135.68" cy="135.68" r="135.18"/>
+  			</g>
+  			
+  			<g id="curved-edge">
+  				<a href="https://www.nyu.edu/">
+    			<path class="cls-2" d="M302.91,153.33l4.34,14.52a13.17,13.17,0,0,0,20.58,6.72l12.24-9.27c10.45-7.92,24.8,2.64,20.34,15l-4.88,13.52a13.18,13.18,0,0,0,12.75,17.65l14.68-.4c13.18-.36,18.65,16.72,7.72,24.09L379,243a13.18,13.18,0,0,0,0,21.85l11.68,7.87c10.93,7.37,5.46,24.45-7.72,24.09l-14.68-.4a13.18,13.18,0,0,0-12.75,17.65l4.88,13.52c4.46,12.34-9.89,22.91-20.34,15l-12.24-9.27A13.18,13.18,0,0,0,307.25,340l-4.34,14.52c-3.75,12.53-21.5,12.53-25.25,0L273.32,340a13.18,13.18,0,0,0-20.58-6.73l-12.23,9.27c-10.46,7.93-24.81-2.64-20.35-15L225,314.08a13.17,13.17,0,0,0-12.75-17.65l-14.68.4c-13.18.36-18.65-16.72-7.72-24.09l11.68-7.87a13.18,13.18,0,0,0,0-21.85l-11.68-7.88c-10.93-7.37-5.46-24.45,7.72-24.09l14.68.4A13.17,13.17,0,0,0,225,193.8l-4.88-13.52c-4.46-12.34,9.89-22.9,20.35-15l12.23,9.27a13.17,13.17,0,0,0,20.58-6.72l4.34-14.52C281.41,140.8,299.16,140.8,302.91,153.33Z" transform="translate(-154.6 -125.91)"/>
+  			</g>
+  			
+ 			<g id="star">
+ 				<a href="https://genrandom.com/cats/">
+    			<polygon class="cls-3" points="135.68 14.07 145 74.39 172.5 19.91 162.73 80.14 205.72 36.83 177.81 91.1 232.08 63.19 188.77 106.18 249.01 96.41 194.53 123.91 254.84 133.23 194.53 142.55 249.01 170.05 188.77 160.28 232.08 203.27 177.81 175.36 205.72 229.63 162.73 186.31 172.5 246.56 145 192.07 135.68 252.39 126.36 192.07 98.86 246.56 108.63 186.31 65.64 229.63 93.55 175.36 39.28 203.27 82.6 160.28 22.36 170.05 76.84 142.55 16.52 133.23 76.84 123.91 22.36 96.41 82.6 106.18 39.28 63.19 93.55 91.1 65.64 36.83 108.63 80.14 98.86 19.91 126.36 74.39 135.68 14.07"/>
+  			</g>
+  			
+  			<g id="center-star">
+  				<a href="https://random.dog/">
+    			<polygon class="cls-4" points="121.44 133.23 129.33 132.01 122.2 128.41 130.09 129.69 124.42 124.06 131.52 127.72 127.87 120.61 133.49 126.28 132.21 118.4 135.81 125.53 137.03 117.63 138.25 125.53 141.85 118.4 140.57 126.28 146.2 120.61 142.55 127.72 149.65 124.06 143.98 129.69 151.87 128.41 144.74 132.01 152.63 133.23 144.74 134.45 151.87 138.05 143.98 136.77 149.65 142.4 142.55 138.74 146.2 145.85 140.57 140.18 141.85 148.06 138.25 140.93 137.03 148.83 135.81 140.93 132.21 148.06 133.49 140.18 127.87 145.85 131.52 138.74 124.42 142.4 130.09 136.77 122.2 138.05 129.33 134.45 121.44 133.23"/>
+  			</g>
+  				<text x="93" y="141">A</text>
+ 				<text x="163" y="141">B</text>
+		</svg>
 	</body>
 </html>

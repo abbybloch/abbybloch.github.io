@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Zen+Kurenaido&display=swap');
+
+
+#container {
+        width: 90%;
+        margin: auto;
+      }
+
+#bib{
+  font-family: Zen Kurenaido, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 1em;
+}
+
+#song, #caption{
+  font-family: Zen Kurenaido, Helvetica, sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  font-size: .85em;
+}
+.o {grid-area: a;}
+.t {grid-area: b;}
+.s {grid-area: c;}
+
+#images{
+  display: grid;
+  margin: 50px;
+
+  grid-template-colomns: repreat(2, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  column-gap: 5px;
+  row-gap: 5px;
+  grid-template-areas: 
+    'c a'
+    'c b'
+    ;
+}
+
+ul.nav-list {
+  list-style: none;
+  margin: auto;
+  display: flex;
+  font-family: Zen Kurenaido, Helvetica, sans-serif;
+  justify-content: center;
+}
+
+li.nav-item {
+  margin-right: 5%;
+  padding-bottom: 5px;
+}
+
+main > p {
+  font-family: Zen Kurenaido, Helvetica, sans-serif;
+  
+  width: 32%;
+  margin-right: 2%;
+  margin-left: 2%; 
+}
+
+main {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h1{
+  margin-right: 20%;
+  font-family: Londrina Outline, Helvetica, sans-serif;
+  font-size: 2.5em;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  font-style: italic;
+  font-size: 1em;
+}
+
+
+a:link, a:active, a:visited{
+  font-family: Zen Kurenaido, Helvetica, sans-serif;
+  text-decoration: none;
+
+  color: #AD3B31;
+}
+
+a:hover{
+  font-family:Zen Kurenaido, Helvetica, sans-serif;
+  color: #AD3B31;
+  background: #31A3AD;
+}
+
+#score:active, #trio:active, #orchestra:active{
+  opacity: 1;
+}
+
+#score:hover, #trio:hover, #orchestra:hover{
+  opacity: .5;
+}
+
+
+#letters, #pig, #cloak, #first-scene, #book, #movie{
+  width: 100%;
+  height: auto;
+}
+
+#score, #trio, #orchestra{
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+
+
